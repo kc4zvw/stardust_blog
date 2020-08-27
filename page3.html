@@ -65,7 +65,7 @@
         <div class="card mb-4">
           <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Article Four</h2>
+            <h2 class="card-title">Article Seven</h2>
             <p class="card-text"> Spacious, clean, well lit and fully equipped Electronics workbench is
                               probably every Electronics engineer or hobbyists would dream of. Many
                               beginners will get stuck with the question of what Electronic tools and
@@ -78,11 +78,11 @@
                               will find links through which you can buy corresponding tools and equipments directly. We will obtain a small commission whenever
                               you buy a product through these links, so in a way you are contributing to our website. This will help us bring more and better
                               learning resources to you.</p>
-            <a href="article04.html" class="btn btn-primary">Read More &rarr;</a>
+            <a href="article07.html" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Posted on August 7, 2020 by David Billsbrough
-            <a href="article04.html">Article Four</a>
+            <a href="article07.html">Article Seven</a>
           </div>
         </div>
 
@@ -90,13 +90,13 @@
         <div class="card mb-4">
           <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Article Five</h2>
+            <h2 class="card-title">Article Eight</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="article05.html" class="btn btn-primary">Read More &rarr;</a>
+            <a href="article08.html" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Posted on August 7, 2020 by David Billsbrough
-            <a href="article05.html">Article Five</a>
+            <a href="article08.html">Article Eight</a>
           </div>
         </div>
 
@@ -104,22 +104,22 @@
         <div class="card mb-4">
           <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
           <div class="card-body">
-            <h2 class="card-title">Article Six</h2>
+            <h2 class="card-title">Article Nine</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="article06.html" class="btn btn-primary">Read More &rarr;</a>
+            <a href="article09.html" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Posted on August 7, 2020 by David Billsbrough
-            <a href="article06.html">Article Six</a>
+            <a href="article09.html">Article Nine</a>
           </div>
         </div>
 
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item">
-            <a class="page-link" href="index.html">&larr; Older</a>
+            <a class="page-link" href="page2.html">&larr; Older</a>
           </li>
-          <li class="page-item">
+          <li class="page-item disabled">
             <a class="page-link" href="page3.html">Newer &rarr;</a>
           </li>
         </ul>
@@ -129,18 +129,31 @@
       <!-- Sidebar Widgets Column -->
       <div class="col-md-4">
 
-        <!-- Search Widget (broken)
+        <!-- Search Widget -->
         <div class="card my-4">
-          <h5 class="card-header">Search</h5>
+          <h5 class="card-header">Search (broken)</h5>
           <div class="card-body">
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for...">
               <span class="input-group-append">
-                <button class="btn btn-secondary" type="button">Go!</button>
+                <button onclick="myFunction()" class="btn btn-secondary" type="button">Go!</button>
               </span>
             </div>
           </div>
-        </div> -->
+        </div>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+          var str = "The search function not implemented!";
+          var result = str.fontcolor("red");
+          document.getElementById("demo").innerHTML = result;
+          alert('SEARCH FAILED\n\nContinue?')
+          document.getElementById("demo").innerHTML = "                                    ";
+        }
+        </script>
+
 
         <!-- Categories Widget -->
         <div class="card my-4">
